@@ -20,6 +20,11 @@ export enum TextAlign {
 	right = 'r',
 }
 
+export enum TextWeight {
+	regular = 'r',
+	bold = 'b',
+}
+
 export interface TextI {
   /**
    * Content of the text
@@ -41,6 +46,11 @@ export interface TextI {
 	 * @description Align Text Position
 	 */
 	align: TextAlign;
+
+	/**
+	 * @description Text Font Weight 
+	 */
+	weight: TextWeight;
 
   /**
    * Custom ClassNames
@@ -79,6 +89,15 @@ const TextComponent = styled.p`
 		font-size: 1.25rem;
 	}
 
+	// Font Weight 👇👇
+	&.weight-${TextWeight.regular} {
+		font-weight: regular;
+	}
+
+	&.weight-${TextWeight.bold} {
+		font-weight: bold;
+	}
+
 	// Colors 👇👇
 	&.color-${TextColor.light} {
 		color: ${Colors.text.light};
@@ -111,6 +130,7 @@ export const Text: React.FC<TextI> = ({
   size = TextSize.regular,
   color = TextColor.light,
 	align = TextAlign.left,
+	weight = TextWeight.regular,
   children,
   ...props
 }) => {
@@ -118,6 +138,7 @@ export const Text: React.FC<TextI> = ({
   if (size) ClassesStr += ` size-${size}`;
   if (color) ClassesStr += ` color-${color}`;
 	if (align) ClassesStr += ` align-${align}`;
+	if (weight) ClassesStr += ` weight-${weight}`;
 
   return (
     <TextComponent style={props.style} className={ClassesStr}>
