@@ -40,28 +40,28 @@ export interface TitleI {
    * @description Text Size
    * @default 'regular'
    */
-  size: TitleSize;
+  size?: TitleSize;
 
   /**
    * @description Text Color Assigned
    * @default 'light'
    */
-  color: TitleColor;
+  color?: TitleColor;
 
   /**
    * @description Align Text Position
    */
-  align: TitleAlign;
+  align?: TitleAlign;
 
   /**
    * @description Text Font Weight
    */
-  weight: TitleWeight;
+  weight?: TitleWeight;
 
   /**
    * @description Title Types 
    */
-  type: TitleTypes;
+  type?: TitleTypes;
 
   /**
    * Custom ClassNames

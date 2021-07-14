@@ -34,23 +34,23 @@ export interface TextI {
    * @description Text Size
    * @default 'regular'
    */
-  size: TextSize;
+  size?: TextSize;
 
   /**
    * @description Text Color Assigned
    * @default 'light'
    */
-  color: TextColor;
+  color?: TextColor;
 
 	/**
 	 * @description Align Text Position
 	 */
-	align: TextAlign;
+	align?: TextAlign;
 
 	/**
 	 * @description Text Font Weight 
 	 */
-	weight: TextWeight;
+	weight?: TextWeight;
 
   /**
    * Custom ClassNames
