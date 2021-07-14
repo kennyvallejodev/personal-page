@@ -93,7 +93,7 @@ const TitlesBaseStyles = `
   }
 
   &.size-${TitleSize.regular} {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   &.size-${TitleSize.large} {

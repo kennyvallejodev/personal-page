@@ -16,6 +16,9 @@ const Colors = {
 			line: PRIMARY_COLOR,
 		}
 	},
+	toggle: {
+		header: PRIMARY_COLOR,
+	},
 };
 
 export default Colors;
