@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { GoodCoder } from '../layouts/home/goodcoder'
 import { Header } from '../layouts/home/header'
 import { Positions } from '../layouts/home/positions'
+import { QA } from '../layouts/home/qa'
 import { Skillset } from '../layouts/home/skillset'
 
 export default function Home() {
@@ -55,6 +56,14 @@ export default function Home() {
 				- Carousel with Post Images
 			*/}
 			<GoodCoder />
+
+			{/* 
+				Questions and Answers, Includes: 
+				- Section Label
+				- 3 questions and answers
+			*/}
+			<QA />
+
     </>
   )
 }

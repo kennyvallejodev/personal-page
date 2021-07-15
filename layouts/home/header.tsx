@@ -12,7 +12,8 @@ import Colors from '../../styles/colors';
 const Container = styled.div`
 	width: 100%;
 	height: 100%;
-	min-height: 100vh;
+	min-height: 90vh;
+	max-height: 1080px;
 	margin: 0;
 	padding: 0;
 
@@ -31,7 +32,8 @@ const FlexContent = styled.div`
 	display: flex;
 
 	height: 100%;
-	min-height: 70vh;
+	min-height: 80vh;
+	max-height: 1080px;
 	align-items: center;
 
 `;

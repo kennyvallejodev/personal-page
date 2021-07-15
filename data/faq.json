@@ -3,7 +3,8 @@
 		{
 			"id": 1,
 			"question": "Where I Live?",
-			"answer": "Current Im living in Bogota, Colombia."
+			"answer": "Current Im living in Bogota, Colombia.",
+			"show": true
 		},
 		{
 			"id": 2,

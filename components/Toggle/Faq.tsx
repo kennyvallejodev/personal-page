@@ -79,7 +79,7 @@ export const FaqToggle: React.FC<FaqI> = (props) => {
                   <Title
                     size={TitleSize.regular}
                     label={question.question}
-                    color={TitleColor.light}
+                    color={TitleColor.dark}
                   />
                 </HeaderTitle>
                 <HeaderIcon>
@@ -105,7 +105,7 @@ export const FaqToggle: React.FC<FaqI> = (props) => {
                 <ListContent>
                   <Text
                     label={question.answer}
-                    color={TextColor.light}
+                    color={TextColor.dark}
                     size={TextSize.large}
                   />
                 </ListContent>
