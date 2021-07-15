@@ -5,6 +5,7 @@ import { Title, TitleColor, TitleSize } from "../Title";
 
 import ArrowBottom from "../../public/assets/icons/arrow-bottom.svg";
 import CloseIcon from "../../public/assets/icons/close.svg";
+import Image from "next/image";
 
 /**
  * Styled Components
@@ -12,20 +13,19 @@ import CloseIcon from "../../public/assets/icons/close.svg";
 const Container = styled.div``;
 
 const Header = styled.div`
-	cursor: pointer;
+  cursor: pointer;
   align-items: center;
   background-color: ${Colors.toggle.header};
   box-sizing: border-box;
   display: flex;
-  padding: 1.5rem;
+  padding: 1.5rem 2.5rem;
   width: 100%;
 
-	transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 
-	&:hover {
-		background-color: ${Colors.toggle.header}95;
-	}
-
+  &:hover {
+    background-color: ${Colors.toggle.header}95;
+  }
 `;
 
 const HeaderTitle = styled.div`
@@ -34,23 +34,24 @@ const HeaderTitle = styled.div`
 
 const HeaderIcon = styled.div`
   width: 2rem;
+  text-align: center;
 
   img {
-		height: 1.25rem;
-		object-fit: cover;
+    height: 1.25rem;
+    object-fit: cover;
   }
 `;
 
 const Content = styled.div`
-	width: 100%;
-	padding: 1rem;
-	box-sizing: border-box;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
 
-	min-height: 8rem;
-	height: 100%;
-	background-color: #fff;
+  // min-height: 8rem;
+  height: 100%;
+  background-color: #fff;
 
-	border-radius: 0px 0px 1rem 1rem;
+  border-radius: 0px 0px 1rem 1rem;
 `;
 
 export interface ToggleBaseI {
@@ -59,19 +60,21 @@ export interface ToggleBaseI {
   content?: React.ReactNode;
 
   active?: boolean;
+
+  lock?: boolean;
 }
 
 export const ToggleBase: React.FC<ToggleBaseI> = (props) => {
-  const { title, content, active = false } = props;
+  const { title, content, active = false, lock = false } = props;
   const [isOpen, setOpen] = useState<boolean>(active);
 
-	function handleClick () {
-		setOpen(!isOpen);
-	}
+  function handleClick() {
+    setOpen(!isOpen);
+  }
 
-	useEffect(() => {
-		setOpen(active);
-	}, [active]);
+  useEffect(() => {
+    setOpen(active);
+  }, [active]);
 
   return (
     <Container>
@@ -82,18 +85,20 @@ export const ToggleBase: React.FC<ToggleBaseI> = (props) => {
           </Title>
         </HeaderTitle>
 
-        <HeaderIcon>
-          <img
-            src={isOpen ? CloseIcon : ArrowBottom}
-            alt={isOpen ? "Cross to Close" : "Arrow pointing to the bottom"}
-          />
-        </HeaderIcon>
+        {!lock && (
+          <HeaderIcon>
+            <Image
+              src={isOpen ? CloseIcon : ArrowBottom}
+              alt={isOpen ? "Cross to Close" : "Arrow pointing to the bottom"}
+              height={isOpen ? 15 : 20}
+              width={isOpen ? 15 : 20}
+              objectFit="contain"
+              layout="fixed"
+            />
+          </HeaderIcon>
+        )}
       </Header>
-			{
-				isOpen && (
-					<Content>{content}</Content>
-				)
-			}
+      {isOpen && <Content>{content}</Content>}
     </Container>
   );
 };

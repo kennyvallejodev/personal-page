@@ -7,7 +7,7 @@ import { Title, TitleColor, TitleSize } from '../Title';
 /**
  * Styled
  */
-const Container = styled.div`
+const Container = styled.nav`
 	display: block;
 	position: relative;
 	margin: 0;

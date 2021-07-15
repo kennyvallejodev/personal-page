@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import { Header } from '../layouts/home/header'
+import { Positions } from '../layouts/home/positions'
+import { Skillset } from '../layouts/home/skillset'
 
 export default function Home() {
   return (
@@ -17,8 +19,30 @@ export default function Home() {
 					href="/favicon.ico" 
 				/>
       </Head>
-
+			{/* 
+				Header, Includes:
+				- Navigation Bar
+				- Biography
+				- Profile Picture
+				- Scroll Button 
+			*/}
 			<Header />
+
+			{/* 
+				Positions, Includes: 
+				- Section Label
+				- Position Card
+			*/}
+			<Positions />
+
+			{/* 
+				Skillset, Includes: 
+				- Section Label
+				- Skills and Knowledge (Simple List)	
+				- Tools and technologies (Complex List)
+				- Spoken Languages (Simple List)	
+			*/}
+			<Skillset />
     </>
   )
 }

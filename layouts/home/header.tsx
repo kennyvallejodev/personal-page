@@ -38,7 +38,8 @@ const FlexContent = styled.div`
 
 const Bio = styled.div`
 	p {
-		margin-top: 1.5rem;
+		margin-top: 2rem;
+		line-height: 1.25;
 	}
 `;
 

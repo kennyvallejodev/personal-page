@@ -24,7 +24,7 @@ const List = styled.div`
 
 const ListItem = styled.div`
   list-style: none;
-	width: calc(100% / 8);
+	width: calc(100% / 10);
   position: relative;
 	margin: 1rem;
 	margin-left: 0;
@@ -58,6 +58,7 @@ const ListItemLabel = styled.div`
 	width: 100%;
 	display: block;
 	text-align: center;
+	margin-top: 0.5rem;
 `;
 
 export interface CompleListI {

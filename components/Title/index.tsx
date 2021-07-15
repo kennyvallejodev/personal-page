@@ -33,6 +33,11 @@ export enum TitleTypes {
 };
 
 export interface TitleI {
+
+	/**
+	 * If the attribute is true, set a border at the left position
+	 */
+	leftBorder?: boolean;
   /**
    * Content of the text
    */
@@ -87,6 +92,13 @@ const TitlesBaseStyles = `
   padding: 0;
 
   width: auto;
+
+	// Border Left
+	&.border-left {
+		padding: 0.5rem 1rem;
+		box-sizing: border-box;
+		border-left: 0.6rem solid ${Colors.primary};
+	}
 
   // Font Sizes 👇👇
   &.size-${TitleSize.small} {
@@ -162,6 +174,7 @@ export const Title: React.FC<TitleI> = ({
   align = TitleAlign.left,
   weight = TitleWeight.regular,
   type = TitleTypes.large,
+	leftBorder = false,
   children,
   ...props
 }) => {
@@ -173,6 +186,7 @@ export const Title: React.FC<TitleI> = ({
   if (color) ClassesStr += ` color-${color}`;
   if (align) ClassesStr += ` align-${align}`;
   if (weight) ClassesStr += ` weight-${weight}`;
+	if (leftBorder) ClassesStr += ` border-left`;
 
   return (
     <Component style={props.style} className={ClassesStr}>

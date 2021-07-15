@@ -14,7 +14,7 @@ const List = styled.ul`
 	display: flex;
 	flex-wrap: wrap;
 	height: 100%;
-	min-height: 5rem;
+	// min-height: 5rem;
 
 	li::before {
 		content: '';
@@ -41,15 +41,17 @@ export interface SimpleListI {
 	title?: string;
 	active?: boolean
 	items?: string[];
+	lock?: boolean;
 };
 
 export const ToggleSimpleList: React.FC<SimpleListI> = (props) => {
-	const { title, active = false, items = [] } = props;
+	const { lock = false, title, active = false, items = [] } = props;
 
 	return (
 		<ToggleBase 
 			title={title}
 			active={active}
+			lock={lock}
 			content={
 				<List>
 					{

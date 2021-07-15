@@ -1,0 +1,54 @@
+{
+	"positions": [
+		{
+			"id": 1,
+			"company": {
+				"name": "Cosmic Go",
+				"location": "Bogotá, Colombia",
+				"logoURL": "/assets/logos/cosmic.svg"
+			},
+			"roles": [
+				{
+					"id": 1,
+					"title": "CTO",
+					"period": "Jan 2021 - Jul 2021"
+				},
+				{
+					"id": 2,
+					"title": "Fullstack Engineer",
+					"period": "Sep 2019 - Jan 2021"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"company": {
+				"name": "Dulink",
+				"location": "Rochester, New York",
+				"logoURL": "/assets/logos/dulink.svg"
+			},
+			"roles": [
+				{
+					"id": 1,
+					"title": "Fullstack Developer",
+					"period": "Mar 2016 - Jul 2019"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"company": {
+				"name": "Freelancer",
+				"location": "Worldwide",
+				"logoURL": "/assets/logos/freelancer.svg"
+			},
+			"roles": [
+				{
+					"id": 1,
+					"title": "Fullstack Developer",
+					"period": "2016 - 2019"
+				}
+			]
+		}
+	]
+}
