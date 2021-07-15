@@ -69,9 +69,10 @@ export const HeaderBio: React.FC = (props) => {
 				<Title
 					size={TitleSize.xlarge}
 					color={TitleColor.dark}>
-					{"I'm"} <span className="primary">Kenny Vallejo</span><br />
-					and {"I'm"} a Fullstack<br/>
-					Developer.
+					{"I'm"} <span className="primary">Kenny Vallejo,</span><br />
+					a Full Stack<br />Developer
+					{/* and {"I'm"} a Fullstack<br/>
+					Developer. */}
 				</Title>
 
 				<Text

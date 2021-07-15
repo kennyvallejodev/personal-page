@@ -17,7 +17,7 @@ import { ToggleComplexList } from "../../components/Toggle/ComplexList";
 const Container = styled.div`
   width: 100%;
   height: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   margin: 0;
   padding: 0;
 

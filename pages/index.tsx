@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { GoodCoder } from '../layouts/home/goodcoder'
 import { Header } from '../layouts/home/header'
 import { Positions } from '../layouts/home/positions'
 import { Skillset } from '../layouts/home/skillset'
@@ -43,6 +44,17 @@ export default function Home() {
 				- Spoken Languages (Simple List)	
 			*/}
 			<Skillset />
+
+			{/* 
+				Goodcoder, Includes: 
+				- Section Label
+				- Description
+				- Logo
+				- More Description
+				- Buttons to Social
+				- Carousel with Post Images
+			*/}
+			<GoodCoder />
     </>
   )
 }

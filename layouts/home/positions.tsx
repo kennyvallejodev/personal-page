@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { PositionCard } from '../../components/Card/Position';
 import { Title, TitleColor, TitleSize } from '../../components/Title';
 
-import { positions } from '../../data/positions.json';
+import PositionsJson from '../../data/positions.json';
 
 /**
  * Styled
@@ -46,7 +46,7 @@ export const Positions: React.FC = (props) => {
 
 				<CardsContainer>
 					{
-						positions.map((position) => {
+						PositionsJson.positions.map((position) => {
 							return (
 								<PositionCard 
 									key={position.id}

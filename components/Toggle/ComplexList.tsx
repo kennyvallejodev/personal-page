@@ -5,13 +5,15 @@ import { Text, TextAlign, TextColor, TextSize } from "../Text";
 import Image from 'next/image';
 
 import { ToggleBase } from "./Base";
-import { categories, items } from "../../data/technologies.json";
+import TechnologiesJson from "../../data/technologies.json";
 import { Title, TitleColor, TitleSize } from "../Title";
 
 /**
  * Styled
  */
 const Container = styled.div`
+	padding: 1.5rem;
+	box-sizing: border-box;
 `;
 const List = styled.div`
   display: flex;
@@ -82,12 +84,12 @@ export const ToggleComplexList: React.FC<CompleListI> = (props) => {
       active={active}
       content={
         <>
-          {categories.map((category) => {
+          {TechnologiesJson.categories.map((category) => {
             return (
               <Container key={category}>
                 <Title size={TitleSize.small} color={TitleColor.light}>{category}</Title>
                 <List>
-                  {items
+                  {TechnologiesJson.items
                     .filter((v: ItemI) => v.category === category)
                     .map((item) => {
                       return (
