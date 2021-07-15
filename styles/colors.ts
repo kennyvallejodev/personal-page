@@ -23,6 +23,12 @@ const Colors = {
 		header: PRIMARY_COLOR,
 		dot: PRIMARY_COLOR,
 	},
+	banner: {
+		contact: {
+			background: PRIMARY_COLOR,
+			buttonBg: PRIMARY_DARK_COLOR,
+		},
+	},
 };
 
 export default Colors;
