@@ -14,10 +14,14 @@ const Colors = {
 			logoBg: PRIMARY_COLOR,
 			circle: PRIMARY_COLOR,
 			line: PRIMARY_COLOR,
-		}
+		},
+		technology: {
+			background: PRIMARY_COLOR,
+		},
 	},
 	toggle: {
 		header: PRIMARY_COLOR,
+		dot: PRIMARY_COLOR,
 	},
 };
 
