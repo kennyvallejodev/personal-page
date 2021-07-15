@@ -3,9 +3,10 @@ import styled from "styled-components";
 import Colors from "../../styles/colors";
 
 export enum TextSize {
-  small = "s",
-  regular = "m",
-  large = "l",
+  small = "sm",
+  regular = "md",
+  large = "lg",
+	xlarge = "xlg"
 }
 
 export enum TextColor {
@@ -66,7 +67,7 @@ export interface TextI {
 const TextComponent = styled.p`
   // Font Stuff
   font-family: Poppins;
-  line-height: 1.33rem;
+  line-height: 1;
 
   white-space: pre-line;
 
@@ -87,6 +88,10 @@ const TextComponent = styled.p`
 
 	&.size-${TextSize.large} {
 		font-size: 1.25rem;
+	}
+
+	&.size-${TextSize.xlarge} {
+		font-size: 1.5rem;
 	}
 
 	// Font Weight 👇👇

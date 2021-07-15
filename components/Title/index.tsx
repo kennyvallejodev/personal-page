@@ -3,9 +3,10 @@ import styled from "styled-components";
 import Colors from "../../styles/colors";
 
 export enum TitleSize {
-  small = "s",
-  regular = "m",
-  large = "l",
+  small = "sm",
+  regular = "md",
+  large = "lg",
+	xlarge = "xlg"
 }
 
 export enum TitleColor {
@@ -98,6 +99,10 @@ const TitlesBaseStyles = `
 
   &.size-${TitleSize.large} {
     font-size: 3rem;
+  }
+
+  &.size-${TitleSize.xlarge} {
+    font-size: 4rem;
   }
 
   // Font Weight 👇👇

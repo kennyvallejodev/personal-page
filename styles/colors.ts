@@ -29,6 +29,8 @@ const Colors = {
 			buttonBg: PRIMARY_DARK_COLOR,
 		},
 	},
+	primary: PRIMARY_COLOR,
+	secondary: PRIMARY_DARK_COLOR,
 };
 
 export default Colors;
