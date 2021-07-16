@@ -116,7 +116,7 @@ const ButtonSecondary = styled.a`
 
 export const GoodCoder: React.FC = (props) => {
 	return (
-		<Container>
+		<Container id='goodcoder'>
 			<Content>
         <Title
           size={TitleSize.regular}

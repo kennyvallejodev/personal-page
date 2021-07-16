@@ -41,7 +41,7 @@ const QAContainer = styled.div`
 export const QA: React.FC = (props) => {
 
 	return (
-		<Container>
+		<Container id='qa'>
 			<Content>
         <Title
           size={TitleSize.regular}

@@ -35,7 +35,7 @@ const CardsContainer = styled.div`
 
 export const Positions: React.FC = (props) => {
 	return (
-		<Container>
+		<Container id='positions'>
 			<Content>
 				<Title
 					size={TitleSize.regular}

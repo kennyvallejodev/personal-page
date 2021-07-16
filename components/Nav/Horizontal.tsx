@@ -55,15 +55,7 @@ export const HorizotalNav: React.FC<HorizontalNavI> = (props) => {
 		<Container>
 			<List>
 				<ListItem>
-					<a href='#'>
-						<Text 
-							label='Intro'
-							size={TextSize.regular} color={TextColor.dark}
-						/>
-					</a>
-				</ListItem>
-				<ListItem>
-					<a href='#'>
+					<a href='#positions'>
 						<Text 
 							label='Positions'
 							size={TextSize.regular} color={TextColor.dark}
@@ -71,7 +63,7 @@ export const HorizotalNav: React.FC<HorizontalNavI> = (props) => {
 					</a>
 				</ListItem>
 				<ListItem>		
-					<a href='#'>
+					<a href='#skillset'>
 						<Text 
 							label='Skillset'
 							size={TextSize.regular} color={TextColor.dark}
@@ -79,7 +71,7 @@ export const HorizotalNav: React.FC<HorizontalNavI> = (props) => {
 					</a>
 				</ListItem>
 				<ListItem>
-					<a href='#'>
+					<a href='#goodcoder'>
 						<Text 
 							label='Goodcoder.js'
 							size={TextSize.regular} color={TextColor.dark}
@@ -87,7 +79,7 @@ export const HorizotalNav: React.FC<HorizontalNavI> = (props) => {
 					</a>
 				</ListItem>
 				<ListItem>
-					<a href='#'>
+					<a href='#qa'>
 					<Text 
 						label='Q&amp;A'
 						size={TextSize.regular} color={TextColor.dark}
@@ -95,7 +87,7 @@ export const HorizotalNav: React.FC<HorizontalNavI> = (props) => {
 					</a>
 				</ListItem>
 				<ListItem>
-					<a href='#'>
+					<a href='#contact'>
 						<Text 
 							label='Contact Me'
 							size={TextSize.regular} color={TextColor.dark}

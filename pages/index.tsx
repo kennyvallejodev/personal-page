@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Contact } from '../layouts/home/contact'
 import { GoodCoder } from '../layouts/home/goodcoder'
 import { Header } from '../layouts/home/header'
 import { Positions } from '../layouts/home/positions'
@@ -64,6 +65,13 @@ export default function Home() {
 			*/}
 			<QA />
 
+			{/* 
+				Contact, Includes: 
+				- Section Label
+				- Banner to send a message (email link)
+				- Social Media
+			*/}
+			<Contact />
     </>
   )
 }

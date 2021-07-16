@@ -57,6 +57,7 @@ const Button = styled.a`
 	padding: 1.5rem 1rem;
 	text-decoration: none;
 	width: auto;
+	margin-left: auto;
 `;
 
 export interface ContactBannerI {
@@ -69,11 +70,13 @@ export const ContactBanner: React.FC<ContactBannerI> = (props) => {
 			<TitleContainer>
 				<Title 
 					label={'Interested\nin working\nwith me?'}
-					size={TitleSize.large} color={TitleColor.light}
+					size={TitleSize.xlarge} color={TitleColor.light}
 				/>
 			</TitleContainer>
 			<ButtonContainer>
-				<Button href='#'>
+				<Button 
+					href='mailto:keenyy1997@gmail.com?subject=Contact From Portfolio' 
+					target="_blank">
 					<Title 
 						label='Send me a message here!'
 						size={TitleSize.small} color={TitleColor.dark}

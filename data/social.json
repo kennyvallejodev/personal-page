@@ -1,0 +1,28 @@
+{
+	"social": [
+		{
+			"id": 1,
+			"network": "Linkedin",
+			"icon": "/assets/social/linkedin.svg",
+			"link": "https://www.linkedin.com/in/kennyvallejoc/"
+		},
+		{
+			"id": 2,
+			"network": "Github",
+			"icon": "/assets/social/github.svg",
+			"link": "https://github.com/kennyvallejodev"
+		},
+		{
+			"id": 3,
+			"network": "Twitter",
+			"icon": "/assets/social/twitter.svg",
+			"link": "https://twitter.com/Kenny_Vallejo97"
+		},
+		{
+			"id": 4,
+			"network": "Email",
+			"icon": "/assets/icons/enveloper--white.svg",
+			"link": "mailto:keenyy1997@gmail.com?subject=Contact from portfolio(footer)"
+		}
+	]
+}

@@ -44,7 +44,7 @@ const ListItem = styled.div`
 
 export const Skillset: React.FC = (props) => {
   return (
-    <Container>
+    <Container id='skillset'>
       <Content>
         <Title
           size={TitleSize.regular}

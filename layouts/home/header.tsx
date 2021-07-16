@@ -106,13 +106,15 @@ export const Header: React.FC = (props) => {
 				<HeaderBio />
 
 				<ScrollButton onClick={handleClick}>
-					<Image
-						alt='Arrow pointing to the bottom'
-						src='/assets/icons/arrow-bottom-scroll.svg'
-						width={60}
-						height={60}
-						unoptimized
-					/>	
+					<a href='#positions'>
+						<Image
+							alt='Arrow pointing to the bottom'
+							src='/assets/icons/arrow-bottom-scroll.svg'
+							width={60}
+							height={60}
+							unoptimized
+						/>	
+					</a>
 				</ScrollButton>
 			</Content>
 		</Container>
