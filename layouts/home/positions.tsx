@@ -9,6 +9,7 @@ import PositionsJson from '../../data/positions.json';
  * Styled
  */
 const Container = styled.div`
+	display: block;
 	width: 100%;
 	height: 100%;
 	min-height: 70vh;
@@ -16,11 +17,17 @@ const Container = styled.div`
 	padding: 0;
 
 	background-color: white;
+
+	@media (max-width: 1440px) {
+		padding: 0rem 1.5rem;
+		box-sizing: border-box;
+	}
 `;
 
 const Content = styled.div`
 	width: 100%;
 	max-width: 1440px;
+	overflow-x: auto;
 	margin: auto;
 	padding: 4rem 0;
 	box-sizing: border-box;

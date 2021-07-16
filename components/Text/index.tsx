@@ -92,6 +92,20 @@ const TextComponent = styled.p`
 
 	&.size-${TextSize.xlarge} {
 		font-size: 1.5rem;
+
+
+
+		@media (min-width: 780px) and (max-width: 1025px) {
+			font-size: 1.25rem;
+		}
+		@media (min-width: 500px) and (max-width: 780px) {
+			font-size: 1rem;
+		}
+		@media (max-width: 500px) {
+			font-size: 1.25rem;
+
+			white-space: normal;
+		}
 	}
 
 	// Font Weight 👇👇

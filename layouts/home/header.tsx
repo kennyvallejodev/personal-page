@@ -10,17 +10,24 @@ import Colors from '../../styles/colors';
  * Styled
  */
 const Container = styled.div`
+	display: block;
 	width: 100%;
 	height: 100%;
-	min-height: 90vh;
 	max-height: 1080px;
 	margin: 0;
 	padding: 0;
+	border: 1px solid red;
 
 	background-color: ${Colors.secondary};
+
+	@media (max-width: 1440px) {
+		padding: 0rem 1.5rem;
+		box-sizing: border-box;
+	}
 `;
 
 const Content = styled.div`
+	display: block;
 	width: 100%;
 	max-width: 1440px;
 	margin: auto;
@@ -32,20 +39,36 @@ const FlexContent = styled.div`
 	display: flex;
 
 	height: 100%;
-	min-height: 80vh;
+	min-height: 800px;
 	max-height: 1080px;
 	align-items: center;
 
+	@media (max-width: 660px) {
+		min-height: 50vh;
+	}
 `;
 
 const Bio = styled.div`
+	width: 60%;
+
 	p {
 		margin-top: 2rem;
 		line-height: 1.25;
 	}
+
+	@media (max-width: 660px) {
+		width: 100%;
+	}
 `;
 
-const ProfilePhoto = styled.div``;
+const ProfilePhoto = styled.div`
+	width: 40%;
+	text-align: center;
+
+	@media (max-width: 660px) {
+		display: none;
+	}
+`;
 
 const ScrollButton = styled.div`
 	display: block;
@@ -63,6 +86,8 @@ const ScrollButton = styled.div`
 	}
 
 `;
+
+const PhotoContainer = styled.div``;
 
 export const HeaderBio: React.FC = (props) => {
 	return (
@@ -87,7 +112,15 @@ export const HeaderBio: React.FC = (props) => {
 				/>
 			</Bio>
 			<ProfilePhoto>
-
+				<PhotoContainer>
+					<Image
+						alt='Profile Picture'
+						src='/assets/profile-picture.svg'
+						width={400}
+						height={400}
+						objectFit='contain'
+					/>
+				</PhotoContainer>
 			</ProfilePhoto>
 		</FlexContent>
 	);
