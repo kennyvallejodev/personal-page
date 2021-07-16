@@ -78,6 +78,8 @@ export interface TitleI {
    * Custom CSS Style
    */
   style?: CSSProperties;
+
+	children?: React.ReactNode;
 }
 
 const TitlesBaseStyles = `
