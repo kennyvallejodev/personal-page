@@ -18,277 +18,277 @@
 			"id": 1,
 			"title": "Javascript",
 			"category": "Programming Languages",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/javascript.svg"
 		},
 		{
 			"id": 2,
 			"title": "Dart",
 			"category": "Programming Languages",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/dart.svg"
 		},
 		{
 			"id": 3,
 			"title": "PostgreSQL",
 			"category": "Databases",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/postgresql.svg"
 		},
 		{
 			"id": 4,
 			"title": "MongoDB",
 			"category": "Databases",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/mongodb.svg"
 		},
 		{
 			"id": 5,
 			"title": "DynamoDB",
 			"category": "Databases",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/dynamodb.svg"
 		},
 		{
 			"id": 6,
 			"title": "MySQL",
 			"category": "Databases",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/mysql.svg"
 		},
 		{
 			"id": 7,
 			"title": "React.js",
 			"category": "FrontEnd Technologies",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/react.svg"
 		},
 		{
 			"id": 8,
 			"title": "Vue.js",
 			"category": "FrontEnd Technologies",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/vue.svg"
 		},
 		{
 			"id": 9,
 			"title": "HTML5",
 			"category": "FrontEnd Technologies",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/html5.svg"
 		},
 		{
 			"id": 10,
 			"title": "Flutter",
 			"category": "FrontEnd Technologies",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/flutter.svg"
 		},
 		{
 			"id": 11,
 			"title": "Next.js",
 			"category": "FrontEnd Technologies",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/next.svg"
 		},
 		{
 			"id": 12,
 			"title": "Gatsby.js",
 			"category": "FrontEnd Technologies",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/gatsby.svg"
 		},
 		{
 			"id": 13,
 			"title": "Jest",
 			"category": "Testing",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/jest.svg"
 		},
 		{
 			"id": 14,
 			"title": "Mocha",
 			"category": "Testing",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/mocha.svg"
 		},
 		{
 			"id": 15,
 			"title": "Cypress",
 			"category": "Testing",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/cypress.svg"
 		},
 		{
 			"id": 16,
 			"title": "Node.js",
 			"category": "Javascript Technologies",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/node.svg"
 		},
 		{
 			"id": 17,
 			"title": "TypeScript",
 			"category": "Javascript Technologies",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/typescript.svg"
 		},
 		{
 			"id": 18,
 			"title": "TCP",
 			"category": "Communication Protocols",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/tcp.svg"
 		},
 		{
 			"id": 19,
 			"title": "Socket.io",
 			"category": "Communication Protocols",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/socket.svg"
 		},
 		{
 			"id": 20,
 			"title": "Mqtt",
 			"category": "Communication Protocols",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/mqtt.svg"
 		},
 		{
 			"id": 21,
 			"title": "Linux",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/linux.svg"
 		},
 		{
 			"id": 21,
 			"title": "AWS EC2",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/ec2.svg"
 		},
 		{
 			"id": 22,
 			"title": "AWS RDS",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/rds.svg"
 		},
 		{
 			"id": 23,
 			"title": "AWS Route 53",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/route53.svg"
 		},
 		{
 			"id": 24,
 			"title": "AWS SNS",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/sns.svg"
 		},
 		{
 			"id": 25,
 			"title": "AWS SQS",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/sqs.svg"
 		},
 		{
 			"id": 26,
 			"title": "AWS SES",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/ses.svg"
 		},
 		{
 			"id": 27,
 			"title": "AWS S3",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/s3.svg"
 		},
 		{
 			"id": 28,
 			"title": "AWS Cloudfront",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/cloudfront.svg"
 		},
 		{
 			"id": 29,
 			"title": "AWS Lambda",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/lambda.svg"
 		},
 		{
 			"id": 30,
 			"title": "AWS Api Gateway",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/apigateway.svg"
 		},
 		{
 			"id": 31,
 			"title": "AWS Cognito",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/cognito.svg"
 		},
 		{
 			"id": 32,
 			"title": "Docker",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/docker.svg"
 		},
 		{
 			"id": 33,
 			"title": "Microservices",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/microservices.svg"
 		},
 		{
 			"id": 34,
 			"title": "Nginx",
 			"category": "Infrastructure",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/nginx.svg"
 		},
 		{
 			"id": 35,
 			"title": "Circle CI",
 			"category": "CI/CD",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/circleci.svg"
 		},
 		{
 			"id": 36,
 			"title": "Github Actions",
 			"category": "CI/CD",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/githubactions.svg"
 		},
 		{
 			"id": 37,
 			"title": "AWS Codepipeline",
 			"category": "CI/CD",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/codepipeline.svg"
 		},
 		{
 			"id": 38,
 			"title": "Git",
 			"category": "Code Management",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/git.svg"
 		},
 		{
 			"id": 39,
 			"title": "Git Flow",
 			"category": "Code Management",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/gitflow.svg"
 		},
 		{
 			"id": 40,
 			"title": "Strapi",
 			"category": "Headless CMS",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/strapi.svg"
 		},
 		{
 			"id": 41,
 			"title": "GraphQL",
 			"category": "Others",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/graphql.svg"
 		},
 		{
 			"id": 42,
 			"title": "Hasura",
 			"category": "Others",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/hasura.svg"
 		},
 		{
 			"id": 43,
 			"title": "CSS3",
 			"category": "Styling",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/css3.svg"
 		},
 		{
 			"id": 44,
 			"title": "Sass",
 			"category": "Styling",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/sass.svg"
 		},
 		{
 			"id": 45,
 			"title": "Styled Components",
 			"category": "Styling",
-			"icon": "/assets/logos/Dulink Icono.svg"
+			"icon": "/assets/technologies/styledcomponents.svg"
 		}
 	]
 }

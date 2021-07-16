@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
 
-import { questions } from "../../data/faq.json";
+import QuestionJson from "../../data/faq.json";
 import { Text, TextColor, TextSize } from "../Text";
 import { Title, TitleColor, TitleSize } from "../Title";
 
@@ -53,7 +53,7 @@ interface QuestionI {
 }
 
 export const FaqToggle: React.FC<FaqI> = (props) => {
-  const [items, setItems] = React.useState<QuestionI[]>(questions);
+  const [items, setItems] = React.useState<QuestionI[]>(QuestionJson.questions);
 
   function toggleShow(id: number) {
     setItems(

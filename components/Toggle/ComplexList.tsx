@@ -98,8 +98,8 @@ export const ToggleComplexList: React.FC<CompleListI> = (props) => {
                             <Image
 															src={item.icon} 
 															alt={`${item.title} brand`} 
-															width={75}
-															height={75}
+															width={60}
+															height={60}
 															objectFit='contain'
 															unoptimized
 														/>
