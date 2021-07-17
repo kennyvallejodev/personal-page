@@ -18,6 +18,10 @@ export default function Home() {
 
 				{/* Basic MetaData */}
 				<meta property="og:title" content="Kenny Vallejo | Full Stack Developer" />
+				<meta 
+					property="og:description" 
+					content="Portfolio Site with all my Skillset, Technologies and Job Positions." 
+				/>
 				<meta property="og:image" content="https://kennyvallejo.com/photo.jpg" />
 				<meta property="og:image:type" content="image/jpeg" />
 				<meta property="og:image:width" content="1024" />
