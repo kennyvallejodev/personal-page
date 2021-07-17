@@ -18,7 +18,7 @@ export default function Home() {
 
 				{/* Basic MetaData */}
 				<meta property="og:title" content="Kenny Vallejo | Full Stack Developer" />
-				<meta property="og:image" content="/photo.jpg" />
+				<meta property="og:image" content="https://kennyvallejo.com/photo.jpg" />
 				<meta property="og:image:type" content="image/jpeg" />
 				<meta property="og:image:width" content="1024" />
 				<meta property="og:image:height" content="1024" />
