@@ -45,11 +45,27 @@ const FlexContent = styled.div`
 	min-height: 50vh;
 	margin-top: 3rem;
 	align-items: center;
+
+
+	@media (max-width: 730px) {
+		min-height: auto;
+	}
 `;
 
 const BrandInfo = styled.div`
 	width: 60%;
 	position: relative;
+
+
+	@media (max-width: 730px) {
+		width: 100%;
+		text-align: center;
+		p {
+			white-space: normal;
+
+			text-align: center !important;
+		}
+	}
 
 	p {
 		line-height: 1.3;
@@ -60,6 +76,10 @@ const CarouselContainer = styled.div`
 	width: 40%;
 	padding: 1rem;
 	box-sizing: border-box;
+
+	@media (max-width: 730px) {
+		display: none;
+	}
 `;
 
 const ButtonsContainer = styled.div`
@@ -69,6 +89,11 @@ const ButtonsContainer = styled.div`
 	align-items: center;
 	justify-content: flex-start;
 	margin-top: 3rem;
+
+
+	@media (max-width: 730px) {
+		justify-content: center;
+	}
 `;
 
 const ButtonPrimary = styled.a`
