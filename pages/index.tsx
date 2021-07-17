@@ -29,11 +29,11 @@ export default function Home() {
 				<meta property="og:image:alt" content="Kenny Vallejo's Selfie" />
 
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="https://kennyvallejo.com/" />
+				<meta property="og:url" content="https://www.kennyvallejo.com/" />
 
 				{/* Twitter MetaData */}
 				<meta name="twitter:card" content="summary" />
-				<meta name="twitter:url" content="https://kennyvallejo.com/" />
+				<meta name="twitter:url" content="https://www.kennyvallejo.com/" />
 				<meta name="twitter:title" content="Check My Personal Site!" />
 				<meta name="twitter:description" content="Here you can find all the 
 				information about my professional career." />
@@ -47,6 +47,10 @@ export default function Home() {
         <link 
 					rel="icon" 
 					href="/favicon.svg" 
+				/>
+        <link 
+					rel="icon" 
+					href="/favicon.ico" 
 				/>
       </Head>
 			{/* 
