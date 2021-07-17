@@ -2,24 +2,19 @@
 	"questions": [
 		{
 			"id": 1,
-			"question": "Where I Live?",
-			"answer": "Current Im living in Bogota, Colombia.",
+			"question": "🚩 Where Do I Live?",
+			"answer": "Currently Im living in Bogota, Colombia 🗺",
 			"show": true
 		},
 		{
 			"id": 2,
-			"question": "Where I Live?",
-			"answer": "Current Im living in Bogota, Colombia."
+			"question": "🤔 Do I Work On Something Currently?",
+			"answer": "Yes!😁 Im Currently Working on a company called GOGABA."
 		},
 		{
 			"id": 3,
-			"question": "Where I Live?",
-			"answer": "Current Im living in Bogota, Colombia."
-		},
-		{
-			"id": 4,
-			"question": "Where I Live?",
-			"answer": "Current Im living in Bogota, Colombia."
+			"question": "⌛ For How Long I Have Been A Developer?",
+			"answer": "I Started Coding as a Full Stack Dev Since Early 2016."
 		}
 	]
 }
