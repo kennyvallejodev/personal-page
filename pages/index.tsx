@@ -11,8 +11,30 @@ export default function Home() {
     <>
       <Head>
         <title>
-					Kenny Vallejo 👉 Full Stack Developer
+					Kenny Vallejo | Full Stack Developer
 				</title>
+				<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+				{/* Basic MetaData */}
+				<meta property="og:title" content="Kenny Vallejo | Full Stack Developer" />
+				<meta property="og:image" content="/photo.jpg" />
+				<meta property="og:image:type" content="image/jpeg" />
+				<meta property="og:image:width" content="1024" />
+				<meta property="og:image:height" content="1024" />
+				<meta property="og:image:alt" content="Kenny Vallejo's Selfie" />
+
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="https://kennyvallejo.com/" />
+
+				{/* Twitter MetaData */}
+				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:url" content="https://kennyvallejo.com/" />
+				<meta name="twitter:title" content="Check My Personal Site!" />
+				<meta name="twitter:description" content="Here you can find all the 
+				information about my professional career." />
+				<meta name="twitter:image" content="/photo.jpg" />
+
+
         <meta 
 					name="description" 
 					content="Portfolio Site with all my Skillset, Technologies and Job Positions." 
