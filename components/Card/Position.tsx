@@ -14,7 +14,7 @@ import { Text, TextColor, TextSize } from "../Text";
 const Container = styled.div`
   width: 100%;
   // height: 100%;
-  margin: 1rem;
+  // margin: 1rem;
   min-height: calc(6rem * 3);
 
   // Background
@@ -156,7 +156,7 @@ export const PositionCard: React.FC<PositionCardI> = (props) => {
   const { roles = [], company } = props;
 
   return (
-    <Container>
+    <Container className='card-item'>
       <Header>
         <HeaderIcon>
 					<Image
