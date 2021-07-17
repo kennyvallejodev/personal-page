@@ -16,7 +16,6 @@ const Container = styled.div`
 	max-height: 1080px;
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
 
 	background-color: ${Colors.secondary};
 
@@ -32,7 +31,7 @@ const Content = styled.div`
 	max-width: 1440px;
 	margin: auto;
 	padding: 2rem 0;
-	box-sizing: border-box;
+	box-sizing: border-box;	
 `;
 
 const FlexContent = styled.div`
@@ -133,7 +132,7 @@ export const Header: React.FC = (props) => {
 	}
 
 	return (
-		<Container>
+		<Container id='home'>
 			<Content>
 				<HorizotalNav />
 				<HeaderBio />
