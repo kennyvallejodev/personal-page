@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-					😄 Kenny Vallejo | Full Stack Developer
+					Kenny Vallejo 👉 Full Stack Developer
 				</title>
         <meta 
 					name="description" 
