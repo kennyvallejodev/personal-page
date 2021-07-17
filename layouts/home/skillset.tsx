@@ -22,6 +22,11 @@ const Container = styled.div`
   padding: 0;
 
   background-color: ${Colors.secondary};
+
+	@media (max-width: 1440px) {
+		padding: 0rem 1.5rem;
+		box-sizing: border-box;
+	}
 `;
 
 const Content = styled.div`

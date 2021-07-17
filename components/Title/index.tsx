@@ -105,18 +105,42 @@ const TitlesBaseStyles = `
   // Font Sizes 👇👇
   &.size-${TitleSize.small} {
     font-size: 1.5rem;
+
+		@media (max-width: 500px) {
+			font-size: 1.3rem;
+		}
   }
 
   &.size-${TitleSize.regular} {
     font-size: 2rem;
+
+		@media (max-width: 500px) {
+			font-size: 1.5rem;
+		}
   }
 
   &.size-${TitleSize.large} {
     font-size: 3rem;
+
+		@media (max-width: 500px) {
+			font-size: 2rem;
+		}
   }
 
   &.size-${TitleSize.xlarge} {
     font-size: 4rem;
+
+
+		@media (min-width: 780px) and (max-width: 1025px) {
+			font-size: 3rem;
+		}
+		@media (min-width: 500px) and (max-width: 780px) {
+			font-size: 2.5rem;
+		}
+		@media (max-width: 500px) {
+			font-size: 2.5rem;
+		}
+
   }
 
   // Font Weight 👇👇
