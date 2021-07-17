@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
+				<html lang="en" />
         <title>
 					Kenny Vallejo | Full Stack Developer
 				</title>
