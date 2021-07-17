@@ -15,6 +15,13 @@ const Container = styled.div`
 	margin: auto;
 	max-width: 1440px;
 	width: 100%;
+
+
+	@media (max-width: 750px) {
+		flex-wrap: wrap;
+
+		padding: 2rem 0rem;
+	}
 `;
 
 const TitleContainer = styled.div`
@@ -22,6 +29,19 @@ const TitleContainer = styled.div`
 	height: 100%;
 	padding: 2rem;
 	width: 50%;
+
+	@media (min-width:750px) and (max-width: 950px) {
+		width: 40%;
+	}
+
+	@media (max-width: 750px) {
+		width: 100%;
+
+		.title {
+			white-space: normal;
+		}
+
+	}
 `;
 
 const ButtonContainer = styled.div`
@@ -36,6 +56,14 @@ const ButtonContainer = styled.div`
 	padding: 0rem 3rem;
 	box-sizing: border-box;
 	overflow: hidden;
+
+	@media (min-width:750px) and (max-width: 950px) {
+		width: 60%;
+	}
+
+	@media (max-width: 750px) {
+		width: 100%;
+	}
 `;
 
 const FixedIcon = styled.div`
@@ -44,9 +72,15 @@ const FixedIcon = styled.div`
 	right: -5rem;
 
 	width: 70%;
+	max-width: 30rem;
 	height: 100%;
 
 	z-index: -1;
+
+
+	@media (max-width: 750px) {
+		display: none;
+	}
 `;
 
 const Button = styled.a`
@@ -58,6 +92,16 @@ const Button = styled.a`
 	text-decoration: none;
 	width: auto;
 	margin-left: auto;
+
+
+	@media (max-width: 750px) {
+		width: 100%;
+		margin: 1rem auto;
+
+		.title {
+			text-align: center !important;
+		}
+	}
 `;
 
 export interface ContactBannerI {
@@ -69,6 +113,7 @@ export const ContactBanner: React.FC<ContactBannerI> = (props) => {
 		<Container>
 			<TitleContainer>
 				<Title 
+					className='title'
 					label={'Interested\nin working\nwith me?'}
 					size={TitleSize.xlarge} color={TitleColor.light}
 				/>
@@ -78,6 +123,7 @@ export const ContactBanner: React.FC<ContactBannerI> = (props) => {
 					href='mailto:keenyy1997@gmail.com?subject=Contact From Portfolio' 
 					target="_blank">
 					<Title 
+						className='title'
 						label='Send me a message here!'
 						size={TitleSize.small} color={TitleColor.dark}
 					/>

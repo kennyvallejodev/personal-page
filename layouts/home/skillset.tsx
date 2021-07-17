@@ -41,6 +41,14 @@ const ListContainer = styled.div`
 	width: 60%;
 	margin: auto;
 	margin-top: 5rem;
+
+	@media (min-width: 720px) and (max-width: 1000px) {
+		width: 80%;
+	}
+
+	@media (max-width: 720px) {
+		width: 100%;
+	}
 `;
 
 const ListItem = styled.div`

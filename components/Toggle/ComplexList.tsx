@@ -35,6 +35,14 @@ const ListItem = styled.div`
 	display: flex;
 	flex-direction: column;
 
+	animation-name: fadeIn;
+	animation-duration: 0.3s;
+
+	@keyframes fadeIn {
+		from { opacity: 0; transform: translateX(-25px); }
+		to { opacity: 1; transform: translateX(0px); }
+	}
+
 `;
 
 const ListItemIcon = styled.div`

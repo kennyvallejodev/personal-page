@@ -46,9 +46,17 @@ const BannerContainer = styled.div`
 
 const SocialContainer = styled.div`
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 2rem auto;
-	width: 30%;
+	width: 40%;
+
+	@media (min-width: 750px) and (max-width: 1024px) {
+		width: 60%;
+	}
+
+	@media (max-width: 750px) {
+		width: 80%;
+	}
 `;
 
 const SocialItem = styled.div`
@@ -91,8 +99,8 @@ export const Contact: React.FC = (props) => {
 											<Image
 												src={social.icon}
 												alt={`${social.network} brand`}
-												height={50}
-												width={50}
+												height={35}
+												width={35}
 												unoptimized
 												objectFit='contain'
 											/>
