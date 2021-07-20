@@ -38,6 +38,22 @@ const ListItem = styled.div`
 	animation-name: fadeIn;
 	animation-duration: 0.3s;
 
+	@media (min-width: 520px) and (max-width: 700px) {
+		width: calc(100% / 8);
+	}
+
+	@media (min-width: 400px) and (max-width: 520px) {
+		width: calc(100% / 6);
+	}
+
+	@media (min-width: 300px) and (max-width: 400px) {
+		width: calc(100% / 4);
+	}
+
+	@media (max-width: 300px) {
+		width: 100%;
+	}
+
 	@keyframes fadeIn {
 		from { opacity: 0; transform: translateX(-25px); }
 		to { opacity: 1; transform: translateX(0px); }

@@ -35,6 +35,10 @@ const ListItem = styled.li`
 	width: 50%;
 	position: relative;
 	margin-bottom: 1rem;
+
+	@media (max-width: 480px) {
+		width: 100%;
+	}
 `;
 
 export interface SimpleListI {
