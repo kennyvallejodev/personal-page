@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import Colors from '../../styles/colors';
 import { Title, TitleColor, TitleSize } from '../Title';
 
+import SocialJson from '../../data/social.json';
+
 /**
  * Styled Components
  */
@@ -109,6 +111,8 @@ export interface ContactBannerI {
 
 export const ContactBanner: React.FC<ContactBannerI> = (props) => {
 
+	const SocialRecord = SocialJson.social.find((v) => v.network === 'Email');
+
 	return (
 		<Container>
 			<TitleContainer>
@@ -120,7 +124,7 @@ export const ContactBanner: React.FC<ContactBannerI> = (props) => {
 			</TitleContainer>
 			<ButtonContainer>
 				<Button 
-					href='mailto:keenyy1997@gmail.com?subject=Contact From Portfolio' 
+					href={`${SocialRecord?.link}`} 
 					target="_blank">
 					<Title 
 						className='title'
