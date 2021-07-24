@@ -4,7 +4,7 @@
 			"id": 1,
 			"network": "Linkedin",
 			"icon": "/assets/social/linkedin.svg",
-			"link": "https://www.linkedin.com/in/kennyvallejoc/"
+			"link": "https://www.linkedin.com/in/kennyvallejodev/"
 		},
 		{
 			"id": 2,
@@ -22,7 +22,7 @@
 			"id": 4,
 			"network": "Email",
 			"icon": "/assets/icons/enveloper--white.svg",
-			"link": "mailto:keenyy1997@gmail.com?subject=Contact from portfolio(footer)"
+			"link": "mailto:work@kennyvallejo.com?subject=Contact from portfolio(footer)"
 		}
 	]
 }
