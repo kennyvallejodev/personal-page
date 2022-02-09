@@ -63,6 +63,7 @@ const HeaderIcon = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   // Background
   background-color: ${Colors.card.position.logoBg};
@@ -76,9 +77,9 @@ const HeaderInfo = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
 
-	p {
-		margin-top: 0.5rem;
-	}
+  p {
+    margin-top: 0.5rem;
+  }
 `;
 
 const List = styled.ul`
@@ -145,6 +146,7 @@ interface CompanyI {
   name: string;
   location: string;
   logoURL: string;
+  url: string;
 }
 
 export interface PositionCardI {
@@ -156,16 +158,18 @@ export const PositionCard: React.FC<PositionCardI> = (props) => {
   const { roles = [], company } = props;
 
   return (
-    <Container className='card-item'>
+    <Container className="card-item">
       <Header>
         <HeaderIcon>
-					<Image
-						src={company?.logoURL || '/'}
-						alt={company?.name}
-						height={55}
-						width={55}
-						objectFit='contain'
-					/>
+          <a href={company?.url} target="_blank" rel="noreferrer">
+            <Image
+              src={company?.logoURL || "/"}
+              alt={company?.name}
+              height={55}
+              width={55}
+              objectFit="contain"
+            />
+          </a>
         </HeaderIcon>
 
         <HeaderInfo>
@@ -184,14 +188,16 @@ export const PositionCard: React.FC<PositionCardI> = (props) => {
         {roles.map((role) => {
           return (
             <ListItem key={role.id}>
-              <Title 
-								label={role.title} 
-								size={TitleSize.regular} 
-								color={TitleColor.primary}
-							/>
+              <Title
+                label={role.title}
+                size={TitleSize.regular}
+                color={TitleColor.primary}
+              />
               <Text
-							 label={role.period} color={TextColor.dark} size={TextSize.large}
-							/>
+                label={role.period}
+                color={TextColor.dark}
+                size={TextSize.large}
+              />
             </ListItem>
           );
         })}
