@@ -13,7 +13,7 @@ module.exports = withImages({
     return [
       {
         source: "/cv",
-        destination: "https://adaptable-zipper-43f.notion.site/Kenny-Vallejo-8fff95564e4741e69945ef447430794e",
+	      destination: "https://kennyvallejoc.notion.site/kennyvallejoc/Kenny-Vallejo-C-8fff95564e4741e69945ef447430794e",
         permanent: true,
       },
     ];
